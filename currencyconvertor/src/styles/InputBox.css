@@ -1,0 +1,50 @@
+.input-box-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.input-box-container label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+.input-box-container input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-box-container input:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}
+
+.input-box-container p {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+.input-box-container select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-box-container select:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}
